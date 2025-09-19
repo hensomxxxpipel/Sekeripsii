@@ -1,0 +1,8 @@
+langchain-chroma
+langchain.memory
+langchain_groq
+langchain_google_genai
+langchain.callbacks.tracers.langchain import LangChainTracer
+langchain.callbacks.manager import CallbackManager
+langchain_huggingface import HuggingFaceEmbeddings
+langchain_chroma import Chroma
