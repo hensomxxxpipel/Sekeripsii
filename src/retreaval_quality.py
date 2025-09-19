@@ -31,6 +31,8 @@ print(f"Total chunks: {len(all_splits)}")
 # 3. Embedding + Vector Store
 # ================================
 embeddings = HuggingFaceEmbeddings(model_name="Qwen/Qwen3-Embedding-0.6B")
+# embeddings = HuggingFaceEmbeddings(model_name="Qwen/Qwen3-Embedding-4B")
+# embeddings = HuggingFaceEmbeddings(model_name="Qwen/Qwen3-Embedding-8B")
 
 print(f"Load embeddings selesai")
 
